@@ -1,0 +1,28 @@
+unit uConceitos;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
+
+type
+  Trevisao_de_coceitos_logicos = class(TForm)
+    edtNum1: TEdit;
+    lbl1: TLabel;
+    Label1: TLabel;
+    Label2: TLabel;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  revisao_de_coceitos_logicos: Trevisao_de_coceitos_logicos;
+
+implementation
+
+{$R *.dfm}
+
+end.

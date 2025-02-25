@@ -1,0 +1,45 @@
+unit uConceitos;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
+
+type
+  Trevisao_de_coceitos_logicos = class(TForm)
+    edtNum1: TEdit;
+    lbl1: TLabel;
+    Label1: TLabel;
+    Label2: TLabel;
+    btmcalcular: TButton;
+    Btmfechar: TButton;
+    procedure BtmfecharClick(Sender: TObject);
+    procedure btmcalcularClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  revisao_de_coceitos_logicos: Trevisao_de_coceitos_logicos;
+
+implementation
+
+{$R *.dfm}
+
+procedure Trevisao_de_coceitos_logicos.btmcalcularClick(Sender: TObject);
+
+   var
+      n1 : double;
+begin
+
+end;
+
+procedure Trevisao_de_coceitos_logicos.BtmfecharClick(Sender: TObject);
+begin
+  close;
+end;
+
+end.
